@@ -1,12 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Image, Text } from 'react-native';
 
 import { styles } from './styles';
 
+import batLogo from '../../../assets/bat-logo.png';
+
 export function BatLogo() {
   return (
-    <View style={styles.container}>
-
-    </View>
+    <>
+      <Text style={styles.title}>BAT PASS GENERATOR</Text>
+      <Image style={styles.logo} source={ batLogo } />
+    </>
   );
 }
