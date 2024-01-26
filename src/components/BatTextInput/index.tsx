@@ -5,6 +5,6 @@ import { styles } from './styles';
 
 export function BatTextInput() {
   return (
-    <TextInput placeholder='password' />
+    <TextInput style={styles.input} placeholder='password' />
   );
 }
