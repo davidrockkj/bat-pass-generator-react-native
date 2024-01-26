@@ -10,6 +10,12 @@ export function BatButton() {
   // Criando um estado para a propriedade 'Password'
   const [password, setPassword] = useState('');
 
+  // Criando a função que irá atualizar o estado da propriedade 'Password'
+    function handlePasswordChange() {
+      setPassword(password);
+    }
+  
+
 
   return (
     <>
