@@ -11,10 +11,10 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignSelf: 'center',
-    marginBottom: 60,
+    marginBottom: 10,
     paddingTop: 20,
     paddingBottom: 10,
-    backgroundColor: '#4d4d4d',
+    // backgroundColor: '#4d4d4d',
   },
   inputcontainer: {
     width: 300,	
