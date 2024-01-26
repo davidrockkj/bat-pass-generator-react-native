@@ -5,8 +5,8 @@ import { BatLogo } from "../../components/BatLogo/BatLogo";
 
 export default function Home() {
   return(
-    <View>
-      <View>
+    <View style={styles.container}>
+      <View style={styles.logoContainer}>
       <BatLogo />
       </View>
 
