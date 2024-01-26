@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     width: 300,	
     flexDirection: 'column',
     alignItems: 'center',
-    backgroundColor: 'red',
   }
 });
 
