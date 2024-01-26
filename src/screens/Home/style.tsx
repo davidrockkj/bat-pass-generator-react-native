@@ -17,9 +17,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#4d4d4d',
   },
   inputcontainer: {
-    width: '100%',
+    width: 300,	
     flexDirection: 'column',
     alignItems: 'center',
+    backgroundColor: 'red',
   }
 });
 
