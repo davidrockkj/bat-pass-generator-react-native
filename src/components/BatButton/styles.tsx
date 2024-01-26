@@ -16,5 +16,24 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     letterSpacing: 0.25,
     color: '#e5bf3c',
+  },
+  slider:{
+    width: '90%',
+    height: '100%'
+  },
+  sliderContainer: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#e5bf3c',
+    borderRadius: 10,
+    marginTop: 5,
+    paddingHorizontal: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  sizePassword: {
+    color: '#000',
+    fontSize: 20,
+    fontWeight: 'bold',
   }
 });
