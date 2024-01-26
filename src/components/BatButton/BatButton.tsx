@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Button, Pressable, Text } from 'react-native';
+import { Pressable, Text } from 'react-native';
 
 import { BatTextInput } from '../BatTextInput';
 import { styles } from './styles';
+import generatePassword from '../../services/passwordService';
 
 
 export function BatButton() {
@@ -12,7 +13,8 @@ export function BatButton() {
 
   // Criando a função que irá atualizar o estado da propriedade 'Password'
     function handlePasswordChange() {
-      setPassword(password);
+      let generateToken = generatePassword();
+      setPassword(generateToken);
     }
   
 
@@ -25,7 +27,7 @@ export function BatButton() {
       
       <Pressable
         style={styles.button}
-        onPress={() => { alert('Pressable Funcionando'); } }
+        onPress={ handlePasswordChange }
       >
         <Text style={styles.text} >🦇 Generate</Text>
       </Pressable>
