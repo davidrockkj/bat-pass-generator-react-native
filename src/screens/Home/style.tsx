@@ -15,6 +15,11 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingBottom: 10,
     backgroundColor: '#4d4d4d',
+  },
+  inputcontainer: {
+    width: '100%',
+    flexDirection: 'column',
+    alignItems: 'center',
   }
 });
 

@@ -11,10 +11,10 @@ export default function Home() {
       <BatLogo />
       </View>
 
-      <View>
+      <View style={styles.inputcontainer}>
         <BatTextInput />
       </View>
-      
+
       <Text style={{color: 'black'}}>Home</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
