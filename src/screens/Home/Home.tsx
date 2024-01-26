@@ -16,9 +16,7 @@ export default function Home() {
         <BatTextInput />
         <BatButton />
       </View>
-
-      <Text style={{color: 'black'}}>Home</Text>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      
     </View>
   )
 }
