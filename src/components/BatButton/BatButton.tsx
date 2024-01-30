@@ -26,6 +26,7 @@ export function BatButton() {
   // Criando função de copiar
   function handleCopy() {
     Clipboard.setStringAsync(password);
+    alert('Password copied! 📜✅');
   }
 
   // Criando um Slider para definir o tamanho da senha gerada
