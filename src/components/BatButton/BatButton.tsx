@@ -61,7 +61,7 @@ export function BatButton() {
         style={styles.button}
         onPress={ handleCopy }
       >
-        <Text style={styles.text} >🦇 Copy</Text>
+        <Text style={styles.text} >📝 Copy</Text>
       </Pressable>
 
     </>
