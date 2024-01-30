@@ -14,6 +14,7 @@ export function BatTextInput(props: BatTextInputProps) {
       style={styles.input}
       placeholder='password'
       value={props.password}
+      editable={false}
       />
   );
 }
