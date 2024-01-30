@@ -15,7 +15,7 @@ export function BatButton() {
 
   // Criando a função que irá atualizar o estado da propriedade 'Password'
     function handlePasswordChange() {
-      let generateToken = generatePassword();
+      let generateToken = generatePassword(size);
       setPassword(generateToken);
     }
 
